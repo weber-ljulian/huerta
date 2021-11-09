@@ -1,0 +1,158 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/*imagen de fondo del sitio*/
+body,
+html {
+    height: 100%;
+    background-image: url(https://image.freepik.com/foto-gratis/paisaje-soleado-pradera_1112-134.jpg);
+  /* background-image: url(huerta-fondo.jpg);*/
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    /* esta linea hace que la imagen de fondo quede estatica independientemente del scroll que se haga*/
+    background-position: center;
+    background-size: 100% 100%;
+    
+}
+
+/*fuente del titulo H1*/
+h1 {
+    font: bold 25px verdana, sans-serif;
+    color: #1b64d1;
+}
+
+/*fuente del titulo H2*/
+h2 {
+    font: bold 20px verdana, sans-serif;
+    color: rgb(19, 250, 7);
+    opacity: .6;
+    /*lo de abajo es el estilo de la caja contenedora para H2*/
+    float: right;
+    width: 220px;
+    margin: 20px 0px;
+    padding: 20px;
+    /* background: #1b64d1;*/
+    background: #3700fd;
+}
+
+h3 {
+    font: bold 20px verdana, sans-serif;
+    color: rgb(19, 250, 7);
+    opacity: .6;
+    float: none;
+    width: 220px;
+    margin: 20px 0px;
+    padding: 20px;
+    background: #3700fd;
+}
+
+h4 {
+    font: bold 15px verdana;
+}
+
+header,
+section,
+aside,
+footer,
+nav,
+article,
+figure,
+figcaption,
+hgroup {
+    display: block;
+}
+
+body {
+    text-align: center;
+}
+
+figcaption {
+    font: bold 15px verdana;
+    color: black
+}
+
+
+footer {
+    text-align: center;
+    margin-top: 10px;
+    padding-top: 10px;
+    color: #1d0505;
+    opacity: .7;
+    background: #CCCCCC;
+
+
+}
+
+
+/*agrupar todo el texto*/
+#agrupar {
+    width: 960px;
+    margin: 15px auto;
+    text-align: left;
+}
+
+/*codigo para generar opacidad / transparencia//
+#opacidad {
+    opacity: .5;
+    background-color: rgb(0, 0, 0);
+    height: 2em;
+    width: 150px;
+    position: absolute;
+    top: 10px;
+    color: black;
+    text-align: center;
+    padding-top: 1em;
+}*/
+
+
+/*estilo para la cabecera*/
+#cabecera {
+    opacity: .5;
+    background-color: rgb(0, 0, 0);
+    height: 2em;
+    position: static;
+    top: 10px;
+    color: rgb(17, 1, 1);
+    text-align: center;
+    padding-top: 1em;
+    background: rgb(130, 255, 4);
+    border: none;
+    background: linear-gradient(25)
+}
+
+
+/*estilo de la seccion MENU//*/
+#menu {
+    opacity: .5;
+    background: #1b64d1;
+    border: none;
+    padding: 5px 15px;
+    
+}
+
+
+/*estilo y fuente del TEXTO dentro de la seccion MENU*/
+#menu li {
+    display: inline-block;
+    list-style: none;
+    padding: 5px;
+    font: bold 14px verdana, sans-serif;
+    color: rgb(0, 0, 0);
+}
+
+#secction {
+    float: left;
+    width: 660px;
+    margin: 20px;
+}
+
+#columna {
+    float: left;
+    width: 220px;
+    margin: 20px 0px;
+    padding: 20px;
+    background: #CCCCCC;
+}
